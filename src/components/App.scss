@@ -1,0 +1,57 @@
+.app {
+  &__wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  &__field {
+    width: 150px;
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    &_valid {
+      border: 2px solid #e57373;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  &__button {
+    position: relative;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    user-select: none;
+    outline: none;
+    text-decoration: none;
+    padding: 2.5px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0px solid transparent;
+    user-select: none;
+    cursor: default;
+    margin: 5px;
+    color: white;
+    width: 100px;
+    &_green {
+      background: #00bfa5;
+    }
+    &_red {
+      background: #e57373;
+    }
+  }
+}
+.select {
+  margin: 5px;
+  overflow: hidden;
+  font-size: 15px;
+  background-color: white;
+  height: 24px;
+}
+.select .day {
+  width: 50px;
+}
+.select .year {
+  width: 150px;
+}
