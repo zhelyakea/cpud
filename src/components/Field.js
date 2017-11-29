@@ -41,7 +41,7 @@ export default class Field extends Component {
     );
   };
   render() {
-    const { type, value, change } = this.props;
+    const { type, value } = this.props;
     return (
       <input
         className={b("field", { valid: !this.state.valid })}
